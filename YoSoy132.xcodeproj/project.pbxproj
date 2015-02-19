@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F15588F15792E1600C70922 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F15588E15792E1600C70922 /* MessageUI.framework */; };
+		7F1558921579352C00C70922 /* head.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558911579352C00C70922 /* head.jpeg */; };
+		7F155898157937BE00C70922 /* head01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F155897157937BE00C70922 /* head01.png */; };
+		7F15589A15793A5900C70922 /* media.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F15589915793A5900C70922 /* media.png */; };
+		7F1558A115793C8200C70922 /* celdablack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F15589F15793C8200C70922 /* celdablack.png */; };
+		7F1558A215793C8200C70922 /* celdagris.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558A015793C8200C70922 /* celdagris.png */; };
+		7F1558A415793ED100C70922 /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558A315793ED100C70922 /* video.png */; };
+		7F1558A615793F5600C70922 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558A515793F5600C70922 /* rss.png */; };
+		7F1558A815793F9600C70922 /* rss1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558A715793F9600C70922 /* rss1.png */; };
+		7F1558AB157942F900C70922 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1558AA157942F900C70922 /* MediaViewController.m */; };
+		7F1558AD15794FC700C70922 /* tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558AC15794FC700C70922 /* tweet.png */; };
+		7F1558B31579511100C70922 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558B21579511100C70922 /* ok.png */; };
+		7F1558B51579517400C70922 /* tomar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558B41579517400C70922 /* tomar.png */; };
+		7F1558C615795F9900C70922 /* yosoy132tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558C515795F9900C70922 /* yosoy132tab.png */; };
+		7F1558C81579602900C70922 /* yosoy132tabc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558C71579602900C70922 /* yosoy132tabc.png */; };
+		7F1558CD1579620400C70922 /* comparte.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558C91579620400C70922 /* comparte.png */; };
+		7F1558CE1579620400C70922 /* expressa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558CA1579620400C70922 /* expressa.png */; };
+		7F1558CF1579620400C70922 /* manif.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558CB1579620400C70922 /* manif.png */; };
+		7F1558D01579620400C70922 /* mensaje.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558CC1579620400C70922 /* mensaje.png */; };
+		7F1558D21579621C00C70922 /* manifest.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558D11579621C00C70922 /* manifest.png */; };
+		7F1558D41579640100C70922 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558D31579640100C70922 /* launch.png */; };
+		7F1558D61579641600C70922 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558D51579641600C70922 /* Default.png */; };
+		7F1558DA157964D400C70922 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558D9157964D400C70922 /* logo.png */; };
+		7F1558DC1579664700C70922 /* logonuevo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558DB1579664700C70922 /* logonuevo.png */; };
+		7F1558DE157966E000C70922 /* logyosoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558DD157966E000C70922 /* logyosoy.png */; };
+		7F1558E01579680E00C70922 /* news.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1558DF1579680E00C70922 /* news.png */; };
+		7F1558E6157968E000C70922 /* NoticiasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1558E5157968E000C70922 /* NoticiasViewController.m */; };
+		7F7EF5E21587B0AA006A9129 /* links.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF5E01587B0AA006A9129 /* links.png */; };
+		7F7EF5E31587B0AA006A9129 /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF5E11587B0AA006A9129 /* maps.png */; };
+		7F7EF5E71587B2B4006A9129 /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF5E51587B2B4006A9129 /* fb.png */; };
+		7F7EF5E81587B2B4006A9129 /* tw.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF5E61587B2B4006A9129 /* tw.png */; };
+		7F7EF5EA1587B326006A9129 /* nooff.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF5E91587B326006A9129 /* nooff.png */; };
+		7F7EF5F11587B38E006A9129 /* EnlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF5F01587B38E006A9129 /* EnlacesViewController.m */; };
+		7F7EF5F61587BE3C006A9129 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7EF5F51587BE3C006A9129 /* CoreLocation.framework */; };
+		7F7EF5F81587BE42006A9129 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7EF5F71587BE42006A9129 /* MapKit.framework */; };
+		7F7EF5FB1587BE83006A9129 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF5FA1587BE83006A9129 /* Map.m */; };
+		7F7EF6041587C06D006A9129 /* Mapann.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF6031587C06C006A9129 /* Mapann.m */; };
+		7F7EF6071587C0AB006A9129 /* UbicacionesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EF6061587C0AB006A9129 /* UbicacionesViewController.m */; };
+		7F7EF6091587C20C006A9129 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF6081587C20C006A9129 /* 1.png */; };
+		7F7EF60B1587C354006A9129 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EF60A1587C354006A9129 /* 2.png */; };
+		7FD63E431577DF6700606405 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD63E421577DF6700606405 /* UIKit.framework */; };
+		7FD63E451577DF6700606405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD63E441577DF6700606405 /* Foundation.framework */; };
+		7FD63E471577DF6700606405 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD63E461577DF6700606405 /* CoreGraphics.framework */; };
+		7FD63E4D1577DF6700606405 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63E4B1577DF6700606405 /* InfoPlist.strings */; };
+		7FD63E4F1577DF6700606405 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD63E4E1577DF6700606405 /* main.m */; };
+		7FD63E531577DF6700606405 /* YoSoy132AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD63E521577DF6700606405 /* YoSoy132AppDelegate.m */; };
+		7FD63E561577DF6700606405 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63E541577DF6700606405 /* MainStoryboard.storyboard */; };
+		7FD63E591577DF6700606405 /* YoSoy132ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD63E581577DF6700606405 /* YoSoy132ViewController.m */; };
+		7FD63EA21577FFDE00606405 /* cap01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63E9D1577FFDE00606405 /* cap01.png */; };
+		7FD63EA31577FFDE00606405 /* cap02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63E9E1577FFDE00606405 /* cap02.jpg */; };
+		7FD63EA41577FFDE00606405 /* cap03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63E9F1577FFDE00606405 /* cap03.jpg */; };
+		7FD63EA51577FFDE00606405 /* cap05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63EA01577FFDE00606405 /* cap05.jpg */; };
+		7FD63EA61577FFDE00606405 /* cap4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63EA11577FFDE00606405 /* cap4.jpg */; };
+		7FD63EA8157803DB00606405 /* blackbt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63EA7157803DB00606405 /* blackbt.png */; };
+		7FD63EAA15780BBD00606405 /* cap06.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63EA915780BBD00606405 /* cap06.jpeg */; };
+		7FD63EAD15780C0800606405 /* InicioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD63EAC15780C0800606405 /* InicioViewController.m */; };
+		7FD63EB11578130100606405 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD63EB01578130100606405 /* twitter.png */; };
+		7FD63EB715781FFC00606405 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD63EB615781FFC00606405 /* Twitter.framework */; };
+		7FD63EB91578200200606405 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD63EB81578200200606405 /* Accounts.framework */; };
+		7FD63EBF157823E300606405 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD63EBE157823E300606405 /* AudioToolbox.framework */; };
+		7FD63EC1157823E900606405 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD63EC0157823E900606405 /* MediaPlayer.framework */; };
+		7FD63EC41578240400606405 /* ManifiestoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD63EC31578240400606405 /* ManifiestoViewController.m */; };
+		7FD63ECA1578275D00606405 /* ExpresaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD63EC91578275D00606405 /* ExpresaViewController.m */; };
+		7FE98731157913DC008CC7D4 /* yosoy132.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE98730157913DC008CC7D4 /* yosoy132.png */; };
+		7FE98734157916DE008CC7D4 /* cap07.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7FE98733157916DE008CC7D4 /* cap07.jpeg */; };
+		7FE9873615791723008CC7D4 /* cap08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FE9873515791723008CC7D4 /* cap08.jpg */; };
+		7FE9873C1579209B008CC7D4 /* cap09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FE9873B1579209B008CC7D4 /* cap09.jpg */; };
+		7FE9873E1579209F008CC7D4 /* cap10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FE9873D1579209F008CC7D4 /* cap10.jpg */; };
+		7FE98741157922F0008CC7D4 /* foto.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE9873F157922F0008CC7D4 /* foto.png */; };
+		7FE98742157922F0008CC7D4 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE98740157922F0008CC7D4 /* mail.png */; };
+		7FE98745157926CE008CC7D4 /* ComparteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE98744157926CE008CC7D4 /* ComparteViewController.m */; };
+		7FE98747157926DD008CC7D4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE98746157926DD008CC7D4 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F15588E15792E1600C70922 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7F1558911579352C00C70922 /* head.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head.jpeg; sourceTree = "<group>"; };
+		7F155897157937BE00C70922 /* head01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head01.png; sourceTree = "<group>"; };
+		7F15589915793A5900C70922 /* media.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media.png; sourceTree = "<group>"; };
+		7F15589F15793C8200C70922 /* celdablack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celdablack.png; sourceTree = "<group>"; };
+		7F1558A015793C8200C70922 /* celdagris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celdagris.png; sourceTree = "<group>"; };
+		7F1558A315793ED100C70922 /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video.png; sourceTree = "<group>"; };
+		7F1558A515793F5600C70922 /* rss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rss.png; sourceTree = "<group>"; };
+		7F1558A715793F9600C70922 /* rss1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rss1.png; sourceTree = "<group>"; };
+		7F1558A9157942F900C70922 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaViewController.h; sourceTree = "<group>"; };
+		7F1558AA157942F900C70922 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaViewController.m; sourceTree = "<group>"; };
+		7F1558AC15794FC700C70922 /* tweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweet.png; sourceTree = "<group>"; };
+		7F1558B21579511100C70922 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		7F1558B41579517400C70922 /* tomar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomar.png; sourceTree = "<group>"; };
+		7F1558C515795F9900C70922 /* yosoy132tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yosoy132tab.png; sourceTree = "<group>"; };
+		7F1558C71579602900C70922 /* yosoy132tabc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yosoy132tabc.png; sourceTree = "<group>"; };
+		7F1558C91579620400C70922 /* comparte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comparte.png; sourceTree = "<group>"; };
+		7F1558CA1579620400C70922 /* expressa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expressa.png; sourceTree = "<group>"; };
+		7F1558CB1579620400C70922 /* manif.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manif.png; sourceTree = "<group>"; };
+		7F1558CC1579620400C70922 /* mensaje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mensaje.png; sourceTree = "<group>"; };
+		7F1558D11579621C00C70922 /* manifest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manifest.png; sourceTree = "<group>"; };
+		7F1558D31579640100C70922 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		7F1558D51579641600C70922 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7F1558D71579646800C70922 /* yosoy132logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yosoy132logo.png; sourceTree = "<group>"; };
+		7F1558D9157964D400C70922 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		7F1558DB1579664700C70922 /* logonuevo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logonuevo.png; sourceTree = "<group>"; };
+		7F1558DD157966E000C70922 /* logyosoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logyosoy.png; sourceTree = "<group>"; };
+		7F1558DF1579680E00C70922 /* news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = news.png; sourceTree = "<group>"; };
+		7F1558E4157968E000C70922 /* NoticiasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticiasViewController.h; sourceTree = "<group>"; };
+		7F1558E5157968E000C70922 /* NoticiasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticiasViewController.m; sourceTree = "<group>"; };
+		7F7EF5E01587B0AA006A9129 /* links.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = links.png; sourceTree = "<group>"; };
+		7F7EF5E11587B0AA006A9129 /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		7F7EF5E51587B2B4006A9129 /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		7F7EF5E61587B2B4006A9129 /* tw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tw.png; sourceTree = "<group>"; };
+		7F7EF5E91587B326006A9129 /* nooff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nooff.png; sourceTree = "<group>"; };
+		7F7EF5EF1587B38E006A9129 /* EnlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlacesViewController.h; sourceTree = "<group>"; };
+		7F7EF5F01587B38E006A9129 /* EnlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlacesViewController.m; sourceTree = "<group>"; };
+		7F7EF5F51587BE3C006A9129 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7F7EF5F71587BE42006A9129 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7F7EF5F91587BE83006A9129 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		7F7EF5FA1587BE83006A9129 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		7F7EF6021587C06C006A9129 /* Mapann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapann.h; sourceTree = "<group>"; };
+		7F7EF6031587C06C006A9129 /* Mapann.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapann.m; sourceTree = "<group>"; };
+		7F7EF6051587C0AB006A9129 /* UbicacionesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UbicacionesViewController.h; sourceTree = "<group>"; };
+		7F7EF6061587C0AB006A9129 /* UbicacionesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UbicacionesViewController.m; sourceTree = "<group>"; };
+		7F7EF6081587C20C006A9129 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		7F7EF60A1587C354006A9129 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		7FD63E3E1577DF6700606405 /* YoSoy132.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoSoy132.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD63E421577DF6700606405 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FD63E441577DF6700606405 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FD63E461577DF6700606405 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FD63E4A1577DF6700606405 /* YoSoy132-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YoSoy132-Info.plist"; sourceTree = "<group>"; };
+		7FD63E4C1577DF6700606405 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FD63E4E1577DF6700606405 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FD63E501577DF6700606405 /* YoSoy132-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YoSoy132-Prefix.pch"; sourceTree = "<group>"; };
+		7FD63E511577DF6700606405 /* YoSoy132AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoSoy132AppDelegate.h; sourceTree = "<group>"; };
+		7FD63E521577DF6700606405 /* YoSoy132AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoSoy132AppDelegate.m; sourceTree = "<group>"; };
+		7FD63E551577DF6700606405 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7FD63E571577DF6700606405 /* YoSoy132ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoSoy132ViewController.h; sourceTree = "<group>"; };
+		7FD63E581577DF6700606405 /* YoSoy132ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoSoy132ViewController.m; sourceTree = "<group>"; };
+		7FD63E9D1577FFDE00606405 /* cap01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cap01.png; sourceTree = "<group>"; };
+		7FD63E9E1577FFDE00606405 /* cap02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap02.jpg; sourceTree = "<group>"; };
+		7FD63E9F1577FFDE00606405 /* cap03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap03.jpg; sourceTree = "<group>"; };
+		7FD63EA01577FFDE00606405 /* cap05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap05.jpg; sourceTree = "<group>"; };
+		7FD63EA11577FFDE00606405 /* cap4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap4.jpg; sourceTree = "<group>"; };
+		7FD63EA7157803DB00606405 /* blackbt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackbt.png; sourceTree = "<group>"; };
+		7FD63EA915780BBD00606405 /* cap06.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap06.jpeg; sourceTree = "<group>"; };
+		7FD63EAB15780C0800606405 /* InicioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InicioViewController.h; sourceTree = "<group>"; };
+		7FD63EAC15780C0800606405 /* InicioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InicioViewController.m; sourceTree = "<group>"; };
+		7FD63EB01578130100606405 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		7FD63EB615781FFC00606405 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7FD63EB81578200200606405 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7FD63EBE157823E300606405 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7FD63EC0157823E900606405 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7FD63EC21578240400606405 /* ManifiestoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManifiestoViewController.h; sourceTree = "<group>"; };
+		7FD63EC31578240400606405 /* ManifiestoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManifiestoViewController.m; sourceTree = "<group>"; };
+		7FD63EC81578275D00606405 /* ExpresaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpresaViewController.h; sourceTree = "<group>"; };
+		7FD63EC91578275D00606405 /* ExpresaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpresaViewController.m; sourceTree = "<group>"; };
+		7FE98730157913DC008CC7D4 /* yosoy132.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yosoy132.png; sourceTree = "<group>"; };
+		7FE98733157916DE008CC7D4 /* cap07.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap07.jpeg; sourceTree = "<group>"; };
+		7FE9873515791723008CC7D4 /* cap08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap08.jpg; sourceTree = "<group>"; };
+		7FE9873B1579209B008CC7D4 /* cap09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap09.jpg; sourceTree = "<group>"; };
+		7FE9873D1579209F008CC7D4 /* cap10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap10.jpg; sourceTree = "<group>"; };
+		7FE9873F157922F0008CC7D4 /* foto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foto.png; sourceTree = "<group>"; };
+		7FE98740157922F0008CC7D4 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		7FE98743157926CE008CC7D4 /* ComparteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComparteViewController.h; sourceTree = "<group>"; };
+		7FE98744157926CE008CC7D4 /* ComparteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComparteViewController.m; sourceTree = "<group>"; };
+		7FE98746157926DD008CC7D4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FD63E3B1577DF6700606405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7EF5F81587BE42006A9129 /* MapKit.framework in Frameworks */,
+				7F7EF5F61587BE3C006A9129 /* CoreLocation.framework in Frameworks */,
+				7F15588F15792E1600C70922 /* MessageUI.framework in Frameworks */,
+				7FE98747157926DD008CC7D4 /* MobileCoreServices.framework in Frameworks */,
+				7FD63EC1157823E900606405 /* MediaPlayer.framework in Frameworks */,
+				7FD63EBF157823E300606405 /* AudioToolbox.framework in Frameworks */,
+				7FD63EB91578200200606405 /* Accounts.framework in Frameworks */,
+				7FD63EB715781FFC00606405 /* Twitter.framework in Frameworks */,
+				7FD63E431577DF6700606405 /* UIKit.framework in Frameworks */,
+				7FD63E451577DF6700606405 /* Foundation.framework in Frameworks */,
+				7FD63E471577DF6700606405 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FD63E331577DF6700606405 = {
+			isa = PBXGroup;
+			children = (
+				7F7EF6051587C0AB006A9129 /* UbicacionesViewController.h */,
+				7F7EF6061587C0AB006A9129 /* UbicacionesViewController.m */,
+				7F7EF6021587C06C006A9129 /* Mapann.h */,
+				7F7EF6031587C06C006A9129 /* Mapann.m */,
+				7F7EF5F91587BE83006A9129 /* Map.h */,
+				7F7EF5FA1587BE83006A9129 /* Map.m */,
+				7F7EF5F71587BE42006A9129 /* MapKit.framework */,
+				7F7EF5F51587BE3C006A9129 /* CoreLocation.framework */,
+				7F7EF5EF1587B38E006A9129 /* EnlacesViewController.h */,
+				7F7EF5F01587B38E006A9129 /* EnlacesViewController.m */,
+				7F1558E4157968E000C70922 /* NoticiasViewController.h */,
+				7F1558E5157968E000C70922 /* NoticiasViewController.m */,
+				7F1558DD157966E000C70922 /* logyosoy.png */,
+				7F1558DB1579664700C70922 /* logonuevo.png */,
+				7F1558D9157964D400C70922 /* logo.png */,
+				7F1558D71579646800C70922 /* yosoy132logo.png */,
+				7F1558D51579641600C70922 /* Default.png */,
+				7F1558A9157942F900C70922 /* MediaViewController.h */,
+				7F1558AA157942F900C70922 /* MediaViewController.m */,
+				7F15588E15792E1600C70922 /* MessageUI.framework */,
+				7FE98746157926DD008CC7D4 /* MobileCoreServices.framework */,
+				7FE98743157926CE008CC7D4 /* ComparteViewController.h */,
+				7FE98744157926CE008CC7D4 /* ComparteViewController.m */,
+				7FD63EC81578275D00606405 /* ExpresaViewController.h */,
+				7FD63EC91578275D00606405 /* ExpresaViewController.m */,
+				7FD63EC21578240400606405 /* ManifiestoViewController.h */,
+				7FD63EC31578240400606405 /* ManifiestoViewController.m */,
+				7FD63EC0157823E900606405 /* MediaPlayer.framework */,
+				7FD63EBE157823E300606405 /* AudioToolbox.framework */,
+				7FD63EB81578200200606405 /* Accounts.framework */,
+				7FD63EB615781FFC00606405 /* Twitter.framework */,
+				7FD63EAB15780C0800606405 /* InicioViewController.h */,
+				7FD63EAC15780C0800606405 /* InicioViewController.m */,
+				7FD63E9C1577FFDE00606405 /* img */,
+				7FD63E481577DF6700606405 /* YoSoy132 */,
+				7FD63E411577DF6700606405 /* Frameworks */,
+				7FD63E3F1577DF6700606405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD63E3F1577DF6700606405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FD63E3E1577DF6700606405 /* YoSoy132.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FD63E411577DF6700606405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FD63E421577DF6700606405 /* UIKit.framework */,
+				7FD63E441577DF6700606405 /* Foundation.framework */,
+				7FD63E461577DF6700606405 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FD63E481577DF6700606405 /* YoSoy132 */ = {
+			isa = PBXGroup;
+			children = (
+				7FD63E511577DF6700606405 /* YoSoy132AppDelegate.h */,
+				7FD63E521577DF6700606405 /* YoSoy132AppDelegate.m */,
+				7FD63E541577DF6700606405 /* MainStoryboard.storyboard */,
+				7FD63E571577DF6700606405 /* YoSoy132ViewController.h */,
+				7FD63E581577DF6700606405 /* YoSoy132ViewController.m */,
+				7FD63E491577DF6700606405 /* Supporting Files */,
+			);
+			path = YoSoy132;
+			sourceTree = "<group>";
+		};
+		7FD63E491577DF6700606405 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FD63E4A1577DF6700606405 /* YoSoy132-Info.plist */,
+				7FD63E4B1577DF6700606405 /* InfoPlist.strings */,
+				7FD63E4E1577DF6700606405 /* main.m */,
+				7FD63E501577DF6700606405 /* YoSoy132-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FD63E9C1577FFDE00606405 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				7F7EF6081587C20C006A9129 /* 1.png */,
+				7F7EF5E51587B2B4006A9129 /* fb.png */,
+				7F7EF60A1587C354006A9129 /* 2.png */,
+				7F7EF5E91587B326006A9129 /* nooff.png */,
+				7F7EF5E61587B2B4006A9129 /* tw.png */,
+				7F7EF5E01587B0AA006A9129 /* links.png */,
+				7F7EF5E11587B0AA006A9129 /* maps.png */,
+				7F1558DF1579680E00C70922 /* news.png */,
+				7F1558D31579640100C70922 /* launch.png */,
+				7F1558C515795F9900C70922 /* yosoy132tab.png */,
+				7F1558C71579602900C70922 /* yosoy132tabc.png */,
+				7F1558AC15794FC700C70922 /* tweet.png */,
+				7F15589915793A5900C70922 /* media.png */,
+				7F1558C91579620400C70922 /* comparte.png */,
+				7F1558CA1579620400C70922 /* expressa.png */,
+				7F1558CB1579620400C70922 /* manif.png */,
+				7F1558D11579621C00C70922 /* manifest.png */,
+				7F1558CC1579620400C70922 /* mensaje.png */,
+				7F15589F15793C8200C70922 /* celdablack.png */,
+				7F1558A015793C8200C70922 /* celdagris.png */,
+				7F1558A315793ED100C70922 /* video.png */,
+				7F1558A515793F5600C70922 /* rss.png */,
+				7F1558B41579517400C70922 /* tomar.png */,
+				7F155897157937BE00C70922 /* head01.png */,
+				7F1558B21579511100C70922 /* ok.png */,
+				7F1558911579352C00C70922 /* head.jpeg */,
+				7FE9873B1579209B008CC7D4 /* cap09.jpg */,
+				7FD63EB01578130100606405 /* twitter.png */,
+				7FE98730157913DC008CC7D4 /* yosoy132.png */,
+				7F1558A715793F9600C70922 /* rss1.png */,
+				7FD63EA7157803DB00606405 /* blackbt.png */,
+				7FD63E9D1577FFDE00606405 /* cap01.png */,
+				7FD63E9E1577FFDE00606405 /* cap02.jpg */,
+				7FD63E9F1577FFDE00606405 /* cap03.jpg */,
+				7FD63EA01577FFDE00606405 /* cap05.jpg */,
+				7FD63EA915780BBD00606405 /* cap06.jpeg */,
+				7FD63EA11577FFDE00606405 /* cap4.jpg */,
+				7FE9873515791723008CC7D4 /* cap08.jpg */,
+				7FE9873F157922F0008CC7D4 /* foto.png */,
+				7FE98740157922F0008CC7D4 /* mail.png */,
+				7FE9873D1579209F008CC7D4 /* cap10.jpg */,
+				7FE98733157916DE008CC7D4 /* cap07.jpeg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FD63E3D1577DF6700606405 /* YoSoy132 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD63E5C1577DF6700606405 /* Build configuration list for PBXNativeTarget "YoSoy132" */;
+			buildPhases = (
+				7FD63E3A1577DF6700606405 /* Sources */,
+				7FD63E3B1577DF6700606405 /* Frameworks */,
+				7FD63E3C1577DF6700606405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoSoy132;
+			productName = YoSoy132;
+			productReference = 7FD63E3E1577DF6700606405 /* YoSoy132.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FD63E351577DF6700606405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YoSoy132;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ASTA;
+			};
+			buildConfigurationList = 7FD63E381577DF6700606405 /* Build configuration list for PBXProject "YoSoy132" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FD63E331577DF6700606405;
+			productRefGroup = 7FD63E3F1577DF6700606405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FD63E3D1577DF6700606405 /* YoSoy132 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FD63E3C1577DF6700606405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD63E4D1577DF6700606405 /* InfoPlist.strings in Resources */,
+				7FD63E561577DF6700606405 /* MainStoryboard.storyboard in Resources */,
+				7FD63EA21577FFDE00606405 /* cap01.png in Resources */,
+				7FD63EA31577FFDE00606405 /* cap02.jpg in Resources */,
+				7FD63EA41577FFDE00606405 /* cap03.jpg in Resources */,
+				7FD63EA51577FFDE00606405 /* cap05.jpg in Resources */,
+				7FD63EA61577FFDE00606405 /* cap4.jpg in Resources */,
+				7FD63EA8157803DB00606405 /* blackbt.png in Resources */,
+				7FD63EAA15780BBD00606405 /* cap06.jpeg in Resources */,
+				7FD63EB11578130100606405 /* twitter.png in Resources */,
+				7FE98731157913DC008CC7D4 /* yosoy132.png in Resources */,
+				7FE98734157916DE008CC7D4 /* cap07.jpeg in Resources */,
+				7FE9873615791723008CC7D4 /* cap08.jpg in Resources */,
+				7FE9873C1579209B008CC7D4 /* cap09.jpg in Resources */,
+				7FE9873E1579209F008CC7D4 /* cap10.jpg in Resources */,
+				7FE98741157922F0008CC7D4 /* foto.png in Resources */,
+				7FE98742157922F0008CC7D4 /* mail.png in Resources */,
+				7F1558921579352C00C70922 /* head.jpeg in Resources */,
+				7F155898157937BE00C70922 /* head01.png in Resources */,
+				7F15589A15793A5900C70922 /* media.png in Resources */,
+				7F1558A115793C8200C70922 /* celdablack.png in Resources */,
+				7F1558A215793C8200C70922 /* celdagris.png in Resources */,
+				7F1558A415793ED100C70922 /* video.png in Resources */,
+				7F1558A615793F5600C70922 /* rss.png in Resources */,
+				7F1558A815793F9600C70922 /* rss1.png in Resources */,
+				7F1558AD15794FC700C70922 /* tweet.png in Resources */,
+				7F1558B31579511100C70922 /* ok.png in Resources */,
+				7F1558B51579517400C70922 /* tomar.png in Resources */,
+				7F1558C615795F9900C70922 /* yosoy132tab.png in Resources */,
+				7F1558C81579602900C70922 /* yosoy132tabc.png in Resources */,
+				7F1558CD1579620400C70922 /* comparte.png in Resources */,
+				7F1558CE1579620400C70922 /* expressa.png in Resources */,
+				7F1558CF1579620400C70922 /* manif.png in Resources */,
+				7F1558D01579620400C70922 /* mensaje.png in Resources */,
+				7F1558D21579621C00C70922 /* manifest.png in Resources */,
+				7F1558D41579640100C70922 /* launch.png in Resources */,
+				7F1558D61579641600C70922 /* Default.png in Resources */,
+				7F1558DA157964D400C70922 /* logo.png in Resources */,
+				7F1558DC1579664700C70922 /* logonuevo.png in Resources */,
+				7F1558DE157966E000C70922 /* logyosoy.png in Resources */,
+				7F1558E01579680E00C70922 /* news.png in Resources */,
+				7F7EF5E21587B0AA006A9129 /* links.png in Resources */,
+				7F7EF5E31587B0AA006A9129 /* maps.png in Resources */,
+				7F7EF5E71587B2B4006A9129 /* fb.png in Resources */,
+				7F7EF5E81587B2B4006A9129 /* tw.png in Resources */,
+				7F7EF5EA1587B326006A9129 /* nooff.png in Resources */,
+				7F7EF6091587C20C006A9129 /* 1.png in Resources */,
+				7F7EF60B1587C354006A9129 /* 2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FD63E3A1577DF6700606405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FD63E4F1577DF6700606405 /* main.m in Sources */,
+				7FD63E531577DF6700606405 /* YoSoy132AppDelegate.m in Sources */,
+				7FD63E591577DF6700606405 /* YoSoy132ViewController.m in Sources */,
+				7FD63EAD15780C0800606405 /* InicioViewController.m in Sources */,
+				7FD63EC41578240400606405 /* ManifiestoViewController.m in Sources */,
+				7FD63ECA1578275D00606405 /* ExpresaViewController.m in Sources */,
+				7FE98745157926CE008CC7D4 /* ComparteViewController.m in Sources */,
+				7F1558AB157942F900C70922 /* MediaViewController.m in Sources */,
+				7F1558E6157968E000C70922 /* NoticiasViewController.m in Sources */,
+				7F7EF5F11587B38E006A9129 /* EnlacesViewController.m in Sources */,
+				7F7EF5FB1587BE83006A9129 /* Map.m in Sources */,
+				7F7EF6041587C06D006A9129 /* Mapann.m in Sources */,
+				7F7EF6071587C0AB006A9129 /* UbicacionesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FD63E4B1577DF6700606405 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD63E4C1577DF6700606405 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FD63E541577DF6700606405 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FD63E551577DF6700606405 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F1558EF1579757800C70922 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "#YoSoy132";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		7F1558F01579757800C70922 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fundacion Interdisciplinaria para el Desarrollo Empresarial S. de R.L. de C.V.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoSoy132/YoSoy132-Prefix.pch";
+				INFOPLIST_FILE = "YoSoy132/YoSoy132-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "62158434-8E7D-4908-84A1-DC2004E5CC9B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		7FD63E5A1577DF6700606405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "#YoSoy132";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FD63E5B1577DF6700606405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "#YoSoy132";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FD63E5D1577DF6700606405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoSoy132/YoSoy132-Prefix.pch";
+				INFOPLIST_FILE = "YoSoy132/YoSoy132-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FD63E5E1577DF6700606405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YoSoy132/YoSoy132-Prefix.pch";
+				INFOPLIST_FILE = "YoSoy132/YoSoy132-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FD63E381577DF6700606405 /* Build configuration list for PBXProject "YoSoy132" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD63E5A1577DF6700606405 /* Debug */,
+				7F1558EF1579757800C70922 /* Distribution */,
+				7FD63E5B1577DF6700606405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD63E5C1577DF6700606405 /* Build configuration list for PBXNativeTarget "YoSoy132" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD63E5D1577DF6700606405 /* Debug */,
+				7F1558F01579757800C70922 /* Distribution */,
+				7FD63E5E1577DF6700606405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FD63E351577DF6700606405 /* Project object */;
+}
